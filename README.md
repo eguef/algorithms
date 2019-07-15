@@ -1,6 +1,6 @@
 # algorithms
 
-###Breadth First Search
+### Breadth First Search
 BFS explore the neighbouring nodes before going down the tree or adjacent vertices in the case of a graph. 
 
 ### Depth First Search
@@ -9,7 +9,7 @@ DFS  traverse a tree by starting at the root node and explore down that branch 
 ### A* Search
 A* Search is a best-first search that solves problems by searching among all possible paths to the solution (goal) for the one that incurs the smallest cost (least distance travelled, shortest time, etc.), and among these paths it first considers the ones that appear to lead most quickly to the solution. It is one of the best and popular technique used in path-finding and graph traversals. Worst case time complexity is O(E), where E is the number of edges in the graph. A* is just like Dijkstra, the only difference is that A* tries to look for a better path by using a heuristic function which gives priority to nodes that are supposed to be better than others while Dijkstra's just explore all possible paths.
 
-###Insertion Sort
+### Insertion Sort
 Insertion sort removes one element from the input data, finds the location it belongs within the sorted list, and inserts it there. It repeats until no input elements remain. It has a worst case of O(n2). 
 
 ### Merge Sort
